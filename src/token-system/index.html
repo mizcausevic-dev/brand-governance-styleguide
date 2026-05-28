@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Token System | Brand Governance Styleguide</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div><strong>KINETIC GAIN</strong> · token system</div>
+      <div>approved variables · contrast posture · spacing discipline</div>
+    </div>
+
+    <section class="hero-card">
+      <div class="chips">
+        <span class="chip">token-system</span>
+        <span class="chip">colors · type · spacing · radius</span>
+      </div>
+      <h1>Approved tokens should be explicit enough to block off-brand work before it ships.</h1>
+      <p>The token system defines the values teams are allowed to use across hero surfaces, editorial promos, lifecycle templates, and docs. If a surface needs a one-off token, it should go through the approval desk rather than silently land in production.</p>
+      <nav class="nav">
+        <a href="/">Overview</a>
+        <a class="active" href="/token-system/">Token System</a>
+        <a href="/pattern-library/">Pattern Library</a>
+        <a href="/approval-desk/">Approval Desk</a>
+        <a href="/verification/">Verification</a>
+        <a href="/docs/">Docs</a>
+      </nav>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Color tokens</h2>
+        <div class="note">accessible action, warning, and trust lanes</div>
+      </div>
+      <div class="token-grid">
+        <article class="token"><div class="swatch" style="background:#5febc0;"></div><h4>Mint action</h4><p><code>#5febc0</code> · primary positive action and trusted completion state.</p></article>
+        <article class="token"><div class="swatch" style="background:#65d9ff;"></div><h4>Cyan signal</h4><p><code>#65d9ff</code> · navigation emphasis, metadata rails, and system highlight.</p></article>
+        <article class="token"><div class="swatch" style="background:#ffc766;"></div><h4>Amber review</h4><p><code>#ffc766</code> · review pressure, warnings, and partial approval state.</p></article>
+        <article class="token"><div class="swatch" style="background:#ff7290;"></div><h4>Rose block</h4><p><code>#ff7290</code> · blocked release state, critical exception, and stop signals.</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Layout tokens</h2>
+        <div class="note">spacing and radius discipline</div>
+      </div>
+      <div class="grid-3">
+        <article class="section-card">
+          <h3>Spacing scale</h3>
+          <p>Use a closed spacing set for cards, rails, and content stacks. New campaign modules should compose from the same spacing primitives instead of redefining layout rhythm.</p>
+          <ul class="checklist">
+            <li><code>--space-4</code> for card padding base.</li>
+            <li><code>--space-5</code> for section rhythm.</li>
+            <li><code>--space-7</code> for major layout breaks.</li>
+          </ul>
+        </article>
+        <article class="section-card">
+          <h3>Radius system</h3>
+          <p>Rounded surfaces should communicate hierarchy, not taste drift. Use one radius family across dashboard cards, pills, and banners.</p>
+          <ul class="checklist">
+            <li><code>--radius-md</code> for pills and micro modules.</li>
+            <li><code>--radius-lg</code> for cards and token modules.</li>
+            <li><code>--radius-xl</code> for hero containers only.</li>
+          </ul>
+        </article>
+        <article class="section-card">
+          <h3>Type system</h3>
+          <p>The display serif is reserved for high-signal hero statements. System sans handles body copy, while monospace labels anchor meta and operator signals.</p>
+          <ul class="checklist">
+            <li>Display only on hero and major proof headers.</li>
+            <li>Sans for body, tables, and pattern descriptions.</li>
+            <li>Monospace for status labels, metadata, and tokens.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>token governance · approved CSS variables only</div>
+      <div>style.kineticgain.com /token-system/</div>
+    </footer>
+  </div>
+</body>
+</html>
+

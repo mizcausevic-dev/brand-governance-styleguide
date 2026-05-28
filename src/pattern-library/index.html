@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pattern Library | Brand Governance Styleguide</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div><strong>KINETIC GAIN</strong> · pattern library</div>
+      <div>hero kits · CTA bundles · data cards · editorial modules</div>
+    </div>
+
+    <section class="hero-card">
+      <div class="chips">
+        <span class="chip">pattern-library</span>
+        <span class="chip">clone-safe modules</span>
+      </div>
+      <h1>Approved patterns should make it easier to ship fast than to improvise badly.</h1>
+      <p>The point of the pattern library is not aesthetics alone. It is to give launch teams a constrained set of modules that already satisfy contrast, spacing, hierarchy, and brand posture requirements.</p>
+      <nav class="nav">
+        <a href="/">Overview</a>
+        <a href="/token-system/">Token System</a>
+        <a class="active" href="/pattern-library/">Pattern Library</a>
+        <a href="/approval-desk/">Approval Desk</a>
+        <a href="/verification/">Verification</a>
+        <a href="/docs/">Docs</a>
+      </nav>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Approved modules</h2>
+        <div class="note">reuse before redesign</div>
+      </div>
+      <div class="grid-2">
+        <article class="section-card">
+          <div class="pattern-preview">
+            <div class="sample-banner">
+              <div>
+                <strong>Launch-safe growth sprint</strong>
+                <div class="meta"><code>Hero + proof + CTA stack</code></div>
+              </div>
+              <div class="sample-actions">
+                <span class="button primary">Primary action</span>
+                <span class="button secondary">Secondary path</span>
+              </div>
+            </div>
+          </div>
+          <h3>Hero stack</h3>
+          <p>Use for public front doors, launch pages, and operator summaries where one high-signal message must carry the page.</p>
+          <ul class="checklist">
+            <li>Requires display serif + constrained CTA pair.</li>
+            <li>Side rail must use approved card system.</li>
+            <li>No custom shadows or one-off gradients.</li>
+          </ul>
+        </article>
+        <article class="section-card">
+          <div class="pattern-preview">
+            <div class="grid-2">
+              <div class="metric"><div class="value cyan">7</div><div class="label">Healthy modules</div></div>
+              <div class="metric"><div class="value amber">2</div><div class="label">Watch items</div></div>
+            </div>
+          </div>
+          <h3>Proof rail</h3>
+          <p>Use for metrics, short outcome summaries, and operator posture snapshots under the hero or above a launch table.</p>
+          <ul class="checklist">
+            <li>Metrics should fit the shared card and label grammar.</li>
+            <li>Use the status color lane intentionally, not decoratively.</li>
+            <li>Proof text should remain short enough to scan in one pass.</li>
+          </ul>
+        </article>
+        <article class="section-card">
+          <div class="pattern-preview">
+            <div class="table-card" style="padding:18px;">
+              <table class="table">
+                <thead><tr><th>Pattern</th><th>Status</th><th>Owner</th></tr></thead>
+                <tbody><tr><td>Editorial promo</td><td><span class="status-pill watch">watch</span></td><td>Content ops</td></tr></tbody>
+              </table>
+            </div>
+          </div>
+          <h3>Decision table</h3>
+          <p>Use for approval desks, launch exception queues, token drift lists, and any page where governance needs to stay scannable.</p>
+          <ul class="checklist">
+            <li>Monospace headers only.</li>
+            <li>Row hover and borders inherit the base line system.</li>
+            <li>Status pills must map to the canonical action colors.</li>
+          </ul>
+        </article>
+        <article class="section-card">
+          <div class="pattern-preview">
+            <div class="hero-note" style="margin-top:0;">
+              <div class="label">Exception</div>
+              <p><strong>Custom partner splash requested.</strong><br>Requires design review before launch because it breaks token lane and CTA stack.</p>
+            </div>
+          </div>
+          <h3>Exception banner</h3>
+          <p>Use to explain why a launch or campaign cannot ship yet without inventing a new warning component every sprint.</p>
+          <ul class="checklist">
+            <li>Amber rail for review pressure.</li>
+            <li>One recommendation only.</li>
+            <li>Attach to the relevant module, not buried in footer text.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>approved modules > custom one-offs</div>
+      <div>style.kineticgain.com /pattern-library/</div>
+    </footer>
+  </div>
+</body>
+</html>
+

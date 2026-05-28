@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verification | Brand Governance Styleguide</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div><strong>KINETIC GAIN</strong> · verification</div>
+      <div>contrast checks · token drift · release-safe pattern use</div>
+    </div>
+
+    <section class="hero-card">
+      <div class="chips">
+        <span class="chip">verification</span>
+        <span class="chip">brand release gate</span>
+      </div>
+      <h1>Block release when the visual system and the published surface are no longer the same thing.</h1>
+      <p>The verification route makes the governance rule simple: if tokens drift, patterns fork, or readability slips, the launch should stop until the system and the surface converge again.</p>
+      <nav class="nav">
+        <a href="/">Overview</a>
+        <a href="/token-system/">Token System</a>
+        <a href="/pattern-library/">Pattern Library</a>
+        <a href="/approval-desk/">Approval Desk</a>
+        <a class="active" href="/verification/">Verification</a>
+        <a href="/docs/">Docs</a>
+      </nav>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Verification gates</h2>
+        <div class="note">launch should stop on these failures</div>
+      </div>
+      <div class="grid-2">
+        <article class="section-card">
+          <h3>Token parity</h3>
+          <p>Every live page should source color, spacing, radius, and type from the approved token system.</p>
+          <ul class="checklist">
+            <li>No new hex colors without approval.</li>
+            <li>No oversized hero copy beyond the approved display scale.</li>
+            <li>No campaign-specific radius or shadow overrides.</li>
+          </ul>
+        </article>
+        <article class="section-card">
+          <h3>Pattern safety</h3>
+          <p>Reusable modules should stay structurally consistent, especially CTA lanes and proof rails.</p>
+          <ul class="checklist">
+            <li>Hero stacks must keep the approved CTA pair.</li>
+            <li>Tables should keep the monospace header grammar.</li>
+            <li>Warning banners should reuse the existing review lane.</li>
+          </ul>
+        </article>
+        <article class="section-card">
+          <h3>Readability posture</h3>
+          <p>Typography and contrast should support fast scanning, not aesthetic experimentation.</p>
+          <ul class="checklist">
+            <li>Muted copy must remain readable against the background system.</li>
+            <li>Body width should stay within the approved content measure.</li>
+            <li>Status colors must reinforce meaning, not decoration.</li>
+          </ul>
+        </article>
+        <article class="section-card">
+          <h3>Exception logging</h3>
+          <p>If a team needs a custom pattern, it should show up in the approval desk with a named owner and rollout plan.</p>
+          <ul class="checklist">
+            <li>No silent exceptions.</li>
+            <li>No post-launch justification without prior review.</li>
+            <li>No duplicate variants solving the same layout problem.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>verification gate · token, pattern, and readability checks</div>
+      <div>style.kineticgain.com /verification/</div>
+    </footer>
+  </div>
+</body>
+</html>
+

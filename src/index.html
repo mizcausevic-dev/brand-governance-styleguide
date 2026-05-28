@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brand Governance Styleguide</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div><strong>KINETIC GAIN</strong> · CSS language atlas entry</div>
+      <div>brand governance · token systems · release-safe patterns</div>
+    </div>
+
+    <section class="hero-row">
+      <article class="hero-card">
+        <div class="chips">
+          <span class="chip">brand-governance-styleguide</span>
+          <span class="chip">CNAME · style.kineticgain.com</span>
+          <span class="chip">CSS-first static operator surface</span>
+        </div>
+        <h1>Keep tokens, templates, and launch-safe brand rules in the same release lane.</h1>
+        <p>This styleguide makes brand governance operational: which tokens are approved, which UI patterns are deprecated, and where design, content, lifecycle, or campaign teams still need to repair the system before new surfaces ship.</p>
+        <div class="hero-note">
+          <div class="label">Lead recommendation</div>
+          <p><strong>Standardize the hero + CTA bundle before the next growth sprint.</strong><br>Too many launch surfaces are still borrowing old spacing, muted text contrast, and off-palette CTA styles from one-off campaign builds.</p>
+        </div>
+        <nav class="nav">
+          <a class="active" href="/">Overview</a>
+          <a href="/token-system/">Token System</a>
+          <a href="/pattern-library/">Pattern Library</a>
+          <a href="/approval-desk/">Approval Desk</a>
+          <a href="/verification/">Verification</a>
+          <a href="/docs/">Docs</a>
+        </nav>
+      </article>
+
+      <aside class="side-stack">
+        <article class="side-card">
+          <div class="label">Core offer</div>
+          <strong>Brand control plane</strong>
+          <p>Approved tokens, patterns, launch rules, and exception handling in one governance surface.</p>
+        </article>
+        <article class="side-card">
+          <div class="label">Buyer fit</div>
+          <strong>Design, growth, and content ops</strong>
+          <p>For teams shipping campaigns, lifecycle journeys, docs, and landing pages across too many disconnected builders.</p>
+        </article>
+        <article class="side-card">
+          <div class="label">Monetization path</div>
+          <strong>Templates, hosted kits, consulting</strong>
+          <p>Natural ladder into paid style packs, internal design governance, and embedded rollout work.</p>
+        </article>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Operator summary</h2>
+        <div class="note">brand trust + design-system release discipline</div>
+      </div>
+      <div class="metrics">
+        <div class="metric"><div class="value mint">18</div><div class="label">Approved tokens</div><p>Core color, spacing, radius, and typography tokens currently in-bounds.</p></div>
+        <div class="metric"><div class="value cyan">7</div><div class="label">Approved patterns</div><p>Reusable hero, card, table, CTA, and editorial modules ready to clone.</p></div>
+        <div class="metric"><div class="value amber">3</div><div class="label">Watch items</div><p>Components still carrying contrast or spacing debt from older campaign code.</p></div>
+        <div class="metric"><div class="value rose">2</div><div class="label">Blocked surfaces</div><p>Brand-breaking exceptions that should stop release until fixed.</p></div>
+        <div class="metric"><div class="value violet">5</div><div class="label">Review queues</div><p>Queues waiting on design, content, lifecycle, or legal signoff.</p></div>
+        <div class="metric"><div class="value">CSS</div><div class="label">Primary language</div><p>This repo exists to make CSS a first-class proof surface in the public atlas.</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Overview</h2>
+        <div class="note">where style drift shows up first</div>
+      </div>
+      <div class="grid-2">
+        <article class="section-card">
+          <h3>Homepage launch kit</h3>
+          <p>The homepage hero, side rail, CTA bundle, and proof metrics all rely on the same spacing and contrast system. One rogue campaign override can wreck the entire front door.</p>
+          <ul class="checklist">
+            <li>Hero type scale should stay on approved display and body steps only.</li>
+            <li>CTA color pairings should use the mint/cyan action lane instead of ad hoc blues.</li>
+            <li>Proof rails should inherit tokenized card spacing and border weights.</li>
+          </ul>
+        </article>
+        <article class="section-card">
+          <h3>Lifecycle and editorial surfaces</h3>
+          <p>Email modules, onboarding landing pages, and editorial promos tend to drift faster than product surfaces because they move on tighter launch cycles.</p>
+          <ul class="checklist">
+            <li>Audience-facing consent and CTA blocks need the same button and copy hierarchy.</li>
+            <li>Publishing promos should not introduce custom shadows or one-off muted palettes.</li>
+            <li>Review queues should flag style debt before content or campaign approval closes.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>brand-governance-styleguide · AGPL-3.0-or-later · synthetic design-system data only</div>
+      <div>routes: / · /token-system · /pattern-library · /approval-desk · /verification · /docs</div>
+    </footer>
+  </div>
+</body>
+</html>
+
