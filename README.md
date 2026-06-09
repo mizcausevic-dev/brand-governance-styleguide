@@ -12,6 +12,14 @@ CSS-first operator surface for brand governance: design tokens, component usage 
 
 This repo shows the design-system governance primitive for Kinetic Gain Embedded: approved tokens, publish-safe patterns, and rollout discipline exposed through one operator surface. In a real embedded setting, the same structure can power hosted brand kits, template packs, and consulting-led design governance.
 
+## What this product does
+
+Brand Governance Styleguide turns brand drift into a release-governance surface. It gives design, growth, content, lifecycle, and product teams one place to see which tokens are approved, which patterns are deprecated, which campaign surfaces are carrying style debt, and which exceptions should block release.
+
+For a SaaS go-to-market analyst, the product exposes a growth-risk signal that is usually hidden until late-stage review: inconsistent templates, off-palette CTAs, weak hierarchy, and campaign-specific overrides that make the company feel less mature to buyers. For a SaaS value architect, the value is lower rework, cleaner launch velocity, fewer subjective review loops, and more reusable template infrastructure.
+
+Technically, this repo is intentionally CSS-first. The proof is not a screenshot gallery; it is a static governance surface with source-visible tokens, component states, responsive rules, route coverage, and smoke checks. It shares the same Kinetic Gain pattern as the other operator surfaces: buyer-readable summary first, evidence and owner lanes second, then release-safe next actions.
+
 ## Routes
 
 - `/`
@@ -69,4 +77,3 @@ Open:
 ## Part of the Kinetic Gain Suite
 
 Operator surface in the [Kinetic Gain Suite](https://suite.kineticgain.com/) — a portfolio of buyer-readable control planes spanning compliance evidence, lifecycle governance, identity posture, FinOps, content systems, and operator workflows. Apex: [kineticgain.com](https://kineticgain.com/).
-
